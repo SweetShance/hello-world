@@ -1,3 +1,3 @@
 source ~/.virtualenvs/myweb/bin/activate
 
-gunicorn "test" -b 0.0.0.0:5000
+gunicorn "test:app" -b 0.0.0.0:5000
